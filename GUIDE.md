@@ -13,6 +13,8 @@ Now, let's take a look at the second, more complex method of doing this. Essenti
 
 Admittedly, that's not extremely helpful, and chances are that you will be wanting to represent characters above 9 in the ASCII character chart. Thankfully, there's a solution for this! Below, you'll notice that value 0000 represents the space character. This can be used to show the end of one character and as a separator of sorts. To better show this, take 0010 0100 0000. If you convert this to decimal and then check the bipbop! character chart, you'll get: 2 3 (space) You can simplify this to 23.
 
+A bit confusing, I know. There may even be more ways of representing data in bipbop! It's up to you to figure out what other possibilities there are. ;)
+
 ## How It Works
 
 ## Character Chart
