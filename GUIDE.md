@@ -21,6 +21,9 @@ This is a bit confusing, I know. It definitely isn't the most efficient, but it 
 Coming soon. Just have to get my Arduino up and running, write some code, and publish the finished product. Stay tuned.
 
 ## Character Chart
+Key:
+- @ = 0
+- # = 1
 
 | Bits               | Character                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------|
