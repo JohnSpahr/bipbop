@@ -1,8 +1,9 @@
 # bipbop! Character Set
 ASCII is so yesteryear. Okay, not actually, but it is annoying in that it requires 8 bits, or 1 byte, of data per character. Now, I'm not saying this because I'm of the opinion that a byte takes up too much storage. Not these days. However, when you only have 4 LEDs to work with and want to display more than the most basic of information with them, there's not a whole lot you can do as far as I can tell. Unless, of course, you develop an ASCII alternative that can work with just one nibble (half of a byte) of data! That's where bipbop! comes in!
 
-| @ @ @ @<br>0 0 0 0 | = 0<br>Period. This indicates a stopping point for in-between characters or can be used a decimal point. |
+| Bits               | Character                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------|
+| @ @ @ @<br>0 0 0 0 | = 0<br>Period. This indicates a stopping point for in-between characters or can be used a decimal point. |
 | @ @ @ #<br>0 0 0 1 | = 1<br>Number 0.                                                                                         |
 | @ @ # @<br>0 0 2 0 | = 2<br>Number 1.                                                                                         |
 | @ @ # #<br>0 0 2 1 | = 3<br>Number 2.                                                                                         |
