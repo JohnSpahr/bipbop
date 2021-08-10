@@ -22,8 +22,8 @@ Coming soon. Just have to get my Arduino up and running, write some code, and pu
 
 ## Character Chart
 Key:
-- 0 = @
-- 1 = #
+- 0 = **@**
+- 1 = **#**
 
 | Bits               | Character                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------|
