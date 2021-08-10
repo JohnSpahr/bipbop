@@ -7,15 +7,16 @@ I recognize that the first question many people will ask about this project is s
 To these people, I am delighted to say that this doesn't really have one! It's basically a simple proof of concept and that's about it. It's up to you to decide if, where, and how you want to apply it!
 
 ## Two(?) Methods of Representing Data
-While I'm still figuring out bipbop! myself, at this time, I can think of two methods it can represent information. What do I mean by this? Well, lets start with the first (and simpler) way. Different combinations of bits represent each character in the bipbop! character set, and that's it. So, if we have a binary value of 1001 per se, that adds up to 9 in decimal, and the corresponding character in the table below is 8. It's that simple!
+While I'm still figuring out bipbop! myself, at this time, I can think of two ways it can represent information. What do I mean by this? Well, lets start with the first (and simpler) way. Different combinations of bits represent each character in the bipbop! character set, and that's it. So, if we have a binary value of 1001 per se, that adds up to 9 in decimal, and the corresponding character in the table below is 8. It's that simple!
 
 Now, let's take a look at the second, more complex method of doing this. Essentially, you can use bipbop! as a character set to represent another character set! Don't worry, I'll explain this. So, if we have the nibble 1001 again, we can determine once more that this is 9 in decimal and represents the number 8. This time, we're not done, though. Next, we must consult an ASCII character chart and decide which number corresponds to the number 8. That would be backspace.
 
-Admittedly, that's not extremely helpful, and chances are that you will be wanting to represent characters above 9 in the ASCII character chart. Thankfully, there's a solution for this! Below, you'll notice that value 0000 represents the space character. This can be used to show the end of one character and as a separator of sorts. To better show this, take 0010 0100 0000. If you convert this to decimal and then check the bipbop! character chart, you'll get: 2 3 (space) You can simplify this to 23.
+Admittedly, that's not extremely helpful, and chances are that you will be wanting to represent characters above 9 in the ASCII character chart. Thankfully, there's a solution for this! Below, you'll notice that value 0000 represents the space character. This can be used to show the end of one character and as a separator of sorts. To better show this, take a look at 1000 0011 0000 0111 0100. If you convert this to decimal and then check the bipbop! character chart, you'll get 7 2 (space) 7 3. You can simplify this to 72 72. Character 72 (in decimal) is H is ASCII, and 73 is I. As a result, I just told you "hi" in bipbop!
 
-A bit confusing, I know. There may even be more ways of representing data in bipbop! It's up to you to figure out what other possibilities there are. ;)
+This is a bit confusing, I know. It definitely isn't the most efficient, but it does make for some pretty sneaky hidden codes. It's also worth mentioning that there may even be more ways of representing data in bipbop! One could also develop a more efficient character set to use with it, too. The sky's the limit, and it's up to you to figure out what else you can do with it!
 
-## How It Works
+## bipbop! Demo
+Coming soon. Just have to get my Arduino up and running, write some code, and publish the finished product. Stay tuned.
 
 ## Character Chart
 
@@ -37,4 +38,3 @@ A bit confusing, I know. There may even be more ways of representing data in bip
 | # # @ #<br>*8 4 0 1* | **= 1**3<br>* (multiply sign) - multiplication operator                                                      |
 | # # # @<br>*8 4 2 0* | **= 14**<br>/ (divide sign) - division operator                                                              |
 | # # # #<br>*8 4 2 1* | **= 15**<br>Period. This indicates a stopping point for in-between characters or can be used a decimal point.|
-
