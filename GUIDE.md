@@ -11,7 +11,7 @@ While I'm still figuring out bipbop! myself, at this time, I can think of two me
 
 Now, let's take a look at the second, more complex method of doing this. Essentially, you can use bipbop! as a character set to represent another character set! Don't worry, I'll explain this. So, if we have the nibble 1001 again, we can determine once more that this is 9 in decimal and represents the number 8. This time, we're not done, though. Next, we must consult an ASCII character chart and decide which number corresponds to the number 8. That would be backspace.
 
-Admittedly, that's not extremely helpful, and chances are that you will be wanting to represent characters above 9 in the ASCII character chart. Thankfully, there's a solution for this! Below, you'll notice that value 1111 represents the period character. This can be used as a decimal, but it also can be used to show the end of one character. To better show this, take 0010 0100 1111. If you convert this to decimal and then check the bipbop! character chart, you'll get: 2 3 . Or 23.
+Admittedly, that's not extremely helpful, and chances are that you will be wanting to represent characters above 9 in the ASCII character chart. Thankfully, there's a solution for this! Below, you'll notice that value 0000 represents the space character. This can be used to show the end of one character and as a separator of sorts. To better show this, take 0010 0100 0000. If you convert this to decimal and then check the bipbop! character chart, you'll get: 2 3 (space) You can simplify this to 23.
 
 ## How It Works
 
