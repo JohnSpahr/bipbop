@@ -21,11 +21,11 @@ This is a bit confusing, I know. It definitely isn't the most efficient, but it 
 Coming soon. Just have to get my Arduino up and running, write some code, and publish the finished product. Stay tuned.
 
 ## Character Chart
-Key:
+**Key:**
 - 0 = **@**
 - 1 = **#**
 
-The Chart:
+**The Chart:**
 | Bits               | Character                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------|
 | @ @ @ @<br>*0 0 0 0* | **= 0**<br>Space. This is used to separate words and thoughts.                                               |
