@@ -28,7 +28,7 @@ Coming soon. Just have to get my Arduino up and running, write some code, and pu
 **The Chart:**
 | Bits               | Character                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------------|
-| @ @ @ @<br>*0 0 0 0* | **= 0**<br>Space. This is used to separate words and thoughts.                                               |
+| @ @ @ @<br>*0 0 0 0* | **= 0**<br>Space. This is used to separate each character and just a separator in general.                   |
 | @ @ @ #<br>*0 0 0 1* | **= 1**<br>Number 0.                                                                                         |
 | @ @ # @<br>*0 0 2 0* | **= 2**<br>Number 1.                                                                                         |
 | @ @ # #<br>*0 0 2 1* | **= 3**<br>Number 2.                                                                                         |
@@ -43,4 +43,4 @@ Coming soon. Just have to get my Arduino up and running, write some code, and pu
 | # # @ @<br>*8 4 0 0* | **= 12**<br>- (minus sign) - subtraction operator                                                            |
 | # # @ #<br>*8 4 0 1* | **= 1**3<br>* (multiply sign) - multiplication operator                                                      |
 | # # # @<br>*8 4 2 0* | **= 14**<br>/ (divide sign) - division operator                                                              |
-| # # # #<br>*8 4 2 1* | **= 15**<br>Period. This indicates a stopping point for in-between characters or can be used a decimal point.|
+| # # # #<br>*8 4 2 1* | **= 15**<br>Period. This can be used to indicate the end of a sentence or also represent a decimal.          |
