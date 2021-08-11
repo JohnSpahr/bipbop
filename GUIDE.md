@@ -4,9 +4,9 @@ ASCII is so yesteryear. Okay, not actually, but it is annoying in that it requir
 While not exclusive to the LED situation, it was the issue that prompted me to create this. It wasn't easy, as I had to be pretty creative with bipbop! for a few reasons. Most obviously, I only had 16 different combinations to work with here since there are a measly 4 bits of data work with. Also, I had to pick which characters I could include given these constraints. Ultimately, I settled on primarily numeric characters for reasons I'll explain later. Lastly, I had to decide which characters to include after I had decided on 0-9, period, and space. Ultimately, I chose to include the 4 common operators used in math.
 
 ## Use Cases
-I recognize that the first question many people will ask about this project is something along the lines of: "What's the practical purpose of this?" or "What real-world problem does this solve?"
+I recognize that the first question many people will ask about this project is something along the lines of: "What's the practical purpose of this?" or something along those lines. After all, I could easily buy some more LEDs and avoid this issue entirely, right?
 
-To these people, I am delighted to say that this doesn't really have one! It's basically a simple proof of concept and that's about it. It's up to you to decide if, where, and how you want to apply it!
+To these people, I am delighted to say that this in no way practical as far as I can tell! It's basically a simple proof of concept and that's about it. It's up to you to decide if, where, and how you want to apply it!
 
 ## Two(?) Methods of Representing Data
 While I'm still figuring out bipbop! myself, at this time, I can think of two ways it can represent information. What do I mean by this? Well, lets start with the first (and simpler) way. Different combinations of bits represent each character in the bipbop! character set, and that's it. So, if we have a binary value of 1001 per se, that adds up to 9 in decimal, and the corresponding character in the table below is 8. It's that simple!
