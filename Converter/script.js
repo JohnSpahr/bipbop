@@ -1,5 +1,6 @@
 /* bipbop! converter script by John Spahr */
 
+//bibop! to readable text
 function toText() {
     var inputTxt = document.getElementById("input").value;
     var outputBox = document.getElementById("output");
@@ -7,6 +8,7 @@ function toText() {
 
     var nibbles = inputTxt.split(" ");
 
+    //after splitting nibbles, loop through them and try to convert them.
     for (var i = 0; i < nibbles.length; i++) {
         switch (nibbles[i]) {
             case "0000":
@@ -62,15 +64,17 @@ function toText() {
     }
 }
 
+//bipbop! to binary
 function toBinary() {
     var inputTxt = document.getElementById("input").value;
     var outputBox = document.getElementById("output");
     outputBox.value = "";
 
-    var nibbles = inputTxt.split(" ");
+    var inputs = inputTxt.split(" ");
 
-    for (var i = 0; i < nibbles.length; i++) {
-        switch (nibbles[i]) {
+    //after splitting inputs, loop through them and try to convert them.
+    for (var i = 0; i < inputs.length; i++) {
+        switch (inputs[i]) {
             case " ":
                 outputBox.value += "0000";
                 break;
